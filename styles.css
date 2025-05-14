@@ -71,7 +71,6 @@ a[target="_blank"] {
 main {
     width: 65%;
     padding: 40px 50px;
-    background: linear-gradient(to bottom right, #ffffff, #f0f0ff);
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -386,4 +385,8 @@ html[data-theme="dark"] .comment-box p strong {
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+html[data-theme="light"] aside {
+    background: linear-gradient(to top right, #dcd0ff, #ffffff);
 }
