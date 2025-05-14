@@ -71,7 +71,7 @@ a[target="_blank"] {
 main {
     width: 65%;
     padding: 40px 50px;
-    background-color: #ffffff;
+    background: linear-gradient(to bottom right, #ffffff, #f0f0ff);
     display: flex;
     flex-direction: column;
     gap: 40px;
